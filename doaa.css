@@ -12,7 +12,6 @@ body {
 header {
   margin-top: 2em;
   margin-bottom: 2em;
-  font-family: Consolas;
 }
 
 main {
@@ -52,11 +51,12 @@ main {
 }
 
 #cover {
-  width: 192px;
-  height: 192px;
+  width: 200px;
+  height: 155px;
   margin-top: 2em;
   margin-bottom: 1em;
   cursor: pointer;
+  border: 2px solid #000000;
 }
 
 .hidden {
