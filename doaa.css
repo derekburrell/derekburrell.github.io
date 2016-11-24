@@ -5,7 +5,7 @@ em { font-style: italic; }
 body {
   text-align: center;
   line-height: 125%;
-  font-family: consolas;
+  font-family: american typewriter;
 }
 
 header {
@@ -35,7 +35,7 @@ main {
 }
 
 #player {
-  font-family: consolas;
+  font-family: american typewriter;
   margin: 0 auto;
   margin-top: 2em;
   margin-bottom: 1em;
