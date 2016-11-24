@@ -4,8 +4,8 @@ em { font-style: italic; }
 
 body {
   text-align: center;
-  line-height: 165%;
-  font-family: Consolas;
+  line-height: 125%;
+  font-family: consolas;
 }
 
 header {
@@ -73,4 +73,9 @@ main {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+#credits {
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
