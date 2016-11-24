@@ -27,7 +27,7 @@
     playing: false,
     ended: false,
     stars: '*',
-    titles: ['SEE HER OUT (THATS JUST LIFE)', 'COMEBACK', 'CANT STAY PARTY', 'I WANT YOU TO SHAKE', 'MAY I HAVE THIS DANCE', 'MY CITYS GONE', 'RUNNING MAN / GOSPEL OP1', 'ITS ALRIGHT TO CRY', 'FRIENDS (FEAT BON IVER)', 'THANK YOU'],
+    titles: ["NY Doesn't Care", "Answers [Cadence]", "THAI No. 1", "First Snow", "You+Yours", "Somewhere to Run", "One of Two Colors", "Big Sky Goodbye", "THAI No. 2", "Shortsighted", "...a Nosedive", "Crestfalling", "BA3 -- Sunk Cost", "P58 [Reprise]," "Sunday Morning"],
     offsets: [0, 20, 447, 632, 825, 998, 1232, 1432, 1680, 1868],
     update_ui: function() {
       var ft, t;
