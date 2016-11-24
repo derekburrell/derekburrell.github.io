@@ -1,5 +1,6 @@
 a { color: black; text-decoration: none }
 a:visited { color: black; }
+a:hover { color: #510D00 }
 em { font-style: italic; }
 
 body {
@@ -9,8 +10,12 @@ body {
 }
 
 header {
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+header h3 a {
+  font-size: 34px;
 }
 
 main {
@@ -37,7 +42,6 @@ main {
 #player {
   font-family: courier;
   margin: 0 auto;
-  margin-top: 2em;
   margin-bottom: 1em;
   text-align: center;
   border: 2px solid black;
@@ -47,6 +51,7 @@ main {
 
 #tracklist > li {
   cursor: pointer;
+  a:hover { color: #510D00 }
 }
 
 #cover {
@@ -62,7 +67,7 @@ main {
 }
 
 .playing {
-  background: rgba(0,0,0,1);
+  background: #510D00;
   color: rgba(255, 255, 255, 1);
 }
 
@@ -77,5 +82,5 @@ main {
 
 #credits {
   margin-top: 2em;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
