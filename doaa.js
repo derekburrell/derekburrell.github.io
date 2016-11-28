@@ -25,7 +25,7 @@
     timeout: false,
     playing: false,
     ended: false,
-    stars: '⎈',
+    wheels: '⎈',
     titles: ["NY Doesn't Care", "Answers [Cadence]", "THAI No. 1", "First Snow", "You+Yours", "Somewhere to Run", "One of Two Colors", "Big Sky Goodbye", "THAI No. 2", "Shortsighted", "…a Nosedive", "Crestfalling", "BA3 — Sunk Cost", "P58 [Reprise]", "Sunday Morning"],
     offsets: [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140],
     update_ui: function() {
@@ -34,7 +34,7 @@
         t = this.current_time();
         ft = this.formatted_time(t);
         title.innerHTML = this.titles[this.track_index(t)];
-        time.innerHTML = audio.readyState === 4 ? ft : this.stars;
+        time.innerHTML = audio.readyState === 4 ? ft : this.wheels;
         return player.className = 'playing';
       } else if (this.ended) {
         title.innerHTML = '&nbsp;';
@@ -44,7 +44,7 @@
         return player.className = '';
       }
     },
-    update_stars: function() {
+    update_wheels: function() {
       if (time.textContent === '⎈') {
         time.innerHTML = '⎈⎈';
       } else if (time.textContent === '⎈⎈') {
@@ -54,18 +54,18 @@
       } else {
         return;
       }
-      return this.animate_stars();
+      return this.animate_wheels();
     },
-    animate_stars: function() {
+    animate_wheels: function() {
       if (this.timeout !== false) {
         window.clearTimeout(this.timeout);
       }
-      return this.timeout = window.setTimeout(this.update_stars.bind(this), 500);
+      return this.timeout = window.setTimeout(this.update_wheels.bind(this), 500);
     },
     reset_animation: function() {
-      this.stars = '⎈';
+      this.wheels = '⎈';
       this.update_ui();
-      return this.animate_stars();
+      return this.animate_wheels();
     },
     current_time: function() {
       return Math.round(audio.currentTime);
