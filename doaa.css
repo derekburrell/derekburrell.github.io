@@ -51,7 +51,6 @@ main {
 
 #tracklist > li {
   cursor: pointer;
-  a:hover { color: #510D00 }
 }
 
 #cover {
