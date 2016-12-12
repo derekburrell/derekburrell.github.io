@@ -42,7 +42,7 @@
         time.innerHTML = '&nbsp;';
         return player.className = '';
       } else {
-        title.innerHTML = '[play]';
+        title.innerHTML = '►';
         return player.className = '';
       }
     },
