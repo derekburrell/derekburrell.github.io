@@ -26,7 +26,7 @@
     playing: false,
     ended: false,
     stars: '⎈',
-    titles: ["NY Doesn't Care", "Answers [Cadence]", "THAI No. 1", "First Snow", "You+Yours", "Somewhere to Run", "One of Two Colors", "Big Sky Goodbye", "THAI No. 2", "Shortsighted", "…a Nosedive", "Crestfalling", "BA3 — Sunk Cost", "P58 [Reprise]", "Sunday Morning"],
+    titles: ["NY Doesn't Care", "Answers [Cadence]", "THAI No. 1", "First Snow", "You+Yours", "Somewhere to Run", "One of Two Colors", "Big Sky Goodbye", "THAI No. 2", "Short Sighted", "…a Nosedive", "Crestfalling", "BA3 — Sunk Cost", "P58 [Reprise]", "Sunday Morning"],
     offsets: [0, 137, 314, 549, 849, 1016, 1247, 1401, 1556, 1621, 1897, 2199, 2413, 2725, 2794],
     update_ui: function() {
       var ft, t;
