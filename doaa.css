@@ -21,8 +21,8 @@ header h3 a {
 main {
   text-align: center;
   margin: 0 auto;
-  width: 18em;
   margin-bottom: 2em;
+  width: 18em;
 }
 
 #cover {
@@ -33,18 +33,8 @@ main {
   border-top: 0px;
 }
 
-#footer {
-  margin-top: 2em;
-  margin-bottom: 1em;
-  margin-left: 1em;
-  margin-right: 1em;
-}
-
-#info {
-  margin-top: 2em;
-  margin-bottom: 1em;
-  margin-left: 1em;
-  margin-right: 1em;
+#footer, #info {
+  margin: 2em 1em 1em 1em;
 }
 
 #lightbox {
