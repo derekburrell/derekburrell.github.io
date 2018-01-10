@@ -9,6 +9,13 @@ body {
   text-align: center;
 }
 
+.container {
+	width: 640px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+
 header {
   margin-top: 1em;
   margin-bottom: 1em;
