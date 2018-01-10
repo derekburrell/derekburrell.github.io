@@ -69,7 +69,6 @@ main {
 
 #tracklist > li {
   cursor: pointer;
-  font-size: 12px;
 }
 
 .hidden {
